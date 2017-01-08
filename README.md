@@ -1,9 +1,7 @@
-# StarterPlaygroundBook: A simple Swift Playground Book
+# Swift Challenges to be Completed on the iPad
 
-This sample demonstrates the structure of a simple Swift Playground Book. 
+These challenges come from Paul Hudson's excellent book Swift Coding Challenges. Check out his book for hints, solutions, and further details about the challenges. Also check out his other books at hackingwithswift.com
 
-## Requirements 
-
+## Requirements:
 iOS 10.0 or later; Swift Playgrounds 1.0 or later
 
-Copyright (C) 2016 Apple Inc. All rights reserved.
