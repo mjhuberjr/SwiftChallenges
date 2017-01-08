@@ -1,13 +1,14 @@
 /*
-    Challenge 2: Is a string a palindrome?
-    Difficulty: Easy
+    Challenge 14: String permutations
+    Difficulty: Taxing
 */
 
 /*
-    Write a function that accepts a `String` as its only parameter, and returns true if the string reads the same when reversed, ignoring case. The spaces should be in the same place too.
+    Write a function that prints all possible permutations of a given input string.
+ 
+    Tip: A string permutation is any given rearrangement of its letters, for example "boamtw" is a permutation of "wombat".
  */
 
-assert(challenge2(input: "rotator") == true, "Challenge 2 failed")
-assert(challenge2(input: "Rats live on no evil star") == true, "Challenge 2 failed")
-assert(challenge2(input: "Never odd or even") == false, "Challenge 2 failed") // This fails because the spaces are in different places.
-assert(challenge2(input: "Hello, world") == false, "Challenge 2 failed")
+assert(challenge14(input: "a") == "a", "Challenge 14 failed")
+assert(challenge14(input: "ab") == "ab, ba", "Challenge 14 failed")
+assert(challenge14(input: "abc") == "abc, acb, bac, bca, cab, cba", "Challenge 14 failed")

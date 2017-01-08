@@ -1,13 +1,11 @@
 /*
-    Challenge 2: Is a string a palindrome?
-    Difficulty: Easy
+    Challenge 10: Vowels and consonants.
+    Difficulty: Tricky
 */
 
 /*
-    Write a function that accepts a `String` as its only parameter, and returns true if the string reads the same when reversed, ignoring case. The spaces should be in the same place too.
+    Given a string in English, return a tuple containing the number of vowels and consonants.
  */
 
-assert(challenge2(input: "rotator") == true, "Challenge 2 failed")
-assert(challenge2(input: "Rats live on no evil star") == true, "Challenge 2 failed")
-assert(challenge2(input: "Never odd or even") == false, "Challenge 2 failed") // This fails because the spaces are in different places.
-assert(challenge2(input: "Hello, world") == false, "Challenge 2 failed")
+assert(challenge2(input: "Swift Coding Challenges") == (6, 15), "Challenge 10 failed")
+assert(challenge2(input: "Mississippi") == (4, 7), "Challenge 10 failed")

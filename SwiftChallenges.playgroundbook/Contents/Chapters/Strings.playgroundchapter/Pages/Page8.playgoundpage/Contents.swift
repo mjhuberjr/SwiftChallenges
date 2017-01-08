@@ -1,13 +1,17 @@
 /*
-    Challenge 2: Is a string a palindrome?
-    Difficulty: Easy
+    Challenge 8: String is rotated
+    Difficulty: Tricky
 */
 
 /*
-    Write a function that accepts a `String` as its only parameter, and returns true if the string reads the same when reversed, ignoring case. The spaces should be in the same place too.
+    Write a function that accepts two strings, and returns true if one string is rotation of the other, taking letter case into account.
+ 
+    Tip: A string rotation is when you take a string, remove some letters from its end, then append them to the front. For example, "swift" rotated by two characters would be "ftswi".
  */
 
-assert(challenge2(input: "rotator") == true, "Challenge 2 failed")
-assert(challenge2(input: "Rats live on no evil star") == true, "Challenge 2 failed")
-assert(challenge2(input: "Never odd or even") == false, "Challenge 2 failed") // This fails because the spaces are in different places.
-assert(challenge2(input: "Hello, world") == false, "Challenge 2 failed")
+assert(challenge8(input1: "abcde", input2: "eabcd") == true, "Challenge 8 failed")
+assert(challenge8(input1: "abcde", input2: "cdeab") == true, "Challenge 8 failed")
+assert(challenge8(input1: "abcde", input2: "abced") == false, "Challenge 8 failed")
+assert(challenge8(input1: "abc", input2: "a") == false, "Challenge 8 failed")
+
+

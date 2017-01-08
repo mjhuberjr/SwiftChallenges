@@ -1,13 +1,14 @@
 /*
-    Challenge 2: Is a string a palindrome?
+    Challenge 6: Remove duplicate letters from a string.
     Difficulty: Easy
 */
 
 /*
-    Write a function that accepts a `String` as its only parameter, and returns true if the string reads the same when reversed, ignoring case. The spaces should be in the same place too.
+    Write a function that accepts a string as its input, and returns the same string just with duplicate letters removed.accepts
+ 
+    Tip: If you can solve this challenege without a `for-in` loop, you can consider it a "tricky" challenge.
  */
 
-assert(challenge2(input: "rotator") == true, "Challenge 2 failed")
-assert(challenge2(input: "Rats live on no evil star") == true, "Challenge 2 failed")
-assert(challenge2(input: "Never odd or even") == false, "Challenge 2 failed") // This fails because the spaces are in different places.
-assert(challenge2(input: "Hello, world") == false, "Challenge 2 failed")
+assert(challenge6(input: "wombat") == "wombat", "Challenge 6 failed")
+assert(challenge6(input: "hello") == "helo", "Challenge 6 failed")
+assert(challenge6(input: "Mississippi") == "Misp", "Challenge 6 failed")

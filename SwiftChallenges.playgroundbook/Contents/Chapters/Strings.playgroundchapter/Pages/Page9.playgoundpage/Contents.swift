@@ -1,13 +1,13 @@
 /*
-    Challenge 2: Is a string a palindrome?
-    Difficulty: Easy
+    Challenge 9: Find pangrams.
+    Difficulty: Tricky
 */
 
 /*
-    Write a function that accepts a `String` as its only parameter, and returns true if the string reads the same when reversed, ignoring case. The spaces should be in the same place too.
+    Write a function that returns true if it is given a string that is an English pangram, ignoring letter case.an
+ 
+    Tip: A pangram is a string that contains every letter of the alphabet at least once.
  */
 
-assert(challenge2(input: "rotator") == true, "Challenge 2 failed")
-assert(challenge2(input: "Rats live on no evil star") == true, "Challenge 2 failed")
-assert(challenge2(input: "Never odd or even") == false, "Challenge 2 failed") // This fails because the spaces are in different places.
-assert(challenge2(input: "Hello, world") == false, "Challenge 2 failed")
+assert(challenge9(input: "The quick brown fox jumps over the lazy dog") == true, "Challenge 9 failed")
+assert(challenge9(input: "The quick brown fox jumped over the lazy dog") == false, "Challenge 9 failed")
