@@ -17,6 +17,10 @@
 	<key>Chapters</key>
 	<array>
 		<string>Strings.playgroundchapter</string>
+		<string>Numbers.playgroundchapter</string>
+		<string>Files.playgroundchapter</string>
+		<string>Collections.playgroundchapter</string>
+		<string>Algorithms.playgroundchapter</string>
 	</array>
 </dict>
 </plist>
